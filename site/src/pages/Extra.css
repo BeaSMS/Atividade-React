@@ -1,0 +1,40 @@
+.extras-sobre {
+	max-width: 1000px;
+	margin-bottom: 36px;
+	padding: 28px 32px;
+	border-left: 5px solid #5698e9;
+	border-radius: 4px;
+	background: #ffffff;
+	color: #24394d;
+}
+
+.extras-sobre h1 {
+	margin: 0 0 16px;
+	color: #123e69;
+	font-size: 28px;
+}
+
+.extras-sobre p {
+	margin: 0 0 20px;
+	font-size: 18px;
+	line-height: 1.8;
+}
+
+.extras-sobre p:last-child {
+	margin-bottom: 0;
+}
+
+@media (max-width: 520px) {
+	.extras-sobre {
+		padding: 20px 18px;
+	}
+
+	.extras-sobre h1 {
+		font-size: 25px;
+	}
+
+	.extras-sobre p {
+		font-size: 17px;
+		line-height: 1.7;
+	}
+}

@@ -1,0 +1,46 @@
+.banner {
+position: relative;
+overflow: hidden;
+background: #163955;
+color: #ffffff;
+padding: 76px 20px;
+text-align: left;
+}
+.banner-imagem,
+.banner-sombra {
+position: absolute;
+inset: 0;
+width: 100%;
+height: 100%;
+}
+
+.banner-conteudo {
+position: relative;
+z-index: 1;
+max-width: 1180px;
+margin: 0 auto;
+}
+.banner-etiqueta {
+color: #a9d7ff;
+font-size: 13px;
+font-weight: bold;
+text-transform: uppercase;
+}
+.banner h2 {
+max-width: 650px;
+margin: 10px 0;
+font-size: 42px;
+}
+.banner p {
+max-width: 590px;
+font-size: 18px;
+line-height: 1.5;
+}
+@media (max-width: 700px) {
+.banner {
+padding: 56px 20px;
+}
+.banner h2 {
+font-size: 28px;
+}
+}
